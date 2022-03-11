@@ -1,0 +1,18 @@
+body{
+    align-content: center;
+    display: flex;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.title{
+    color: aliceblue;                        
+}
+.box{
+    background-color: aliceblue;
+    width: 450px;
+    height: 100%;
+align-items: center;
+}
+.itemList{
+    background-color: rgb(10, 44, 33);
+    color: aliceblue;
+}
