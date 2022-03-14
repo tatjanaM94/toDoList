@@ -10,9 +10,10 @@ body{
     background-color: aliceblue;
     width: 450px;
     height: 100%;
-align-items: center;
+    align-items: center;
 }
 .itemList{
     background-color: rgb(10, 44, 33);
     color: aliceblue;
 }
+

@@ -1,24 +1,28 @@
-let list={
+let list = {
      inputItem: document.querySelector("#item"),
-     btn:document.querySelector("#btn"),
-     itemList:document.querySelector(".itemList"),
+     btn: document.querySelector("#btn"),
+     itemList: document.querySelector(".itemList"),
 
-     displayItem:function(){
-         this.itemList.innerHTML += "<li>"+ this.inputItem.value;
-         this.inputItem.value = "";
+     displayItem: function () {
+          this.itemList.innerHTML += "<p>"+ this.inputItem.value;
+          this.inputItem.value = "";
+
+          console.log(this.itemList);
      },
- 
+     checkItems: function () {
+
+     },
+
 };
 
-list.btn.addEventListener("click",function(){
+list.btn.addEventListener("click", function () {
      list.displayItem();
-     console.log()
-     
 });
-list.inputItem.addEventListener('keyup',function(){
-    if (event.key == "Enter") {
-     list.displayItem();
-    }
-})
+list.inputItem.addEventListener('keyup', function () {
+     if (event.key == "Enter") {
+          list.displayItem();
+     }
+});
+
 
 
